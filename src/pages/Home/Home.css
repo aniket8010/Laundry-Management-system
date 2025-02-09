@@ -1,0 +1,71 @@
+.home_banner {
+    height: 432px;
+    width: 499px;
+}
+.home_banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+}
+.a_h5 h5 {
+    font-family: All Round Gothic;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #003A25;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.a_order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a_order span{
+    font-family: All Round Gothic;
+    color: #003A25;
+    font-size: 20px;
+
+    
+}
+.a_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+.a_button button {
+    border: none;
+    font-weight: 700;
+    padding: 8px 130px;
+    color: white;
+    border-radius: 5px;
+    background-color: #315c45;
+    
+
+    
+}
+.a_button button:hover{
+    background-color: #ffffff;
+    border: 1px solid #315C45;
+    color: #315c45;
+}
+.a_place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: Arial;
+   
+}
