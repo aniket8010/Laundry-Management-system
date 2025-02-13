@@ -10,6 +10,12 @@
         height: 100%;
         object-fit: contain;
     }
+    .container p {
+        font-size: 12px;
+    }
+    .container .a_h5 h5{
+        font-size: 17px;
+    }
 }
 /* @media (max-width: 480px) { 
 
