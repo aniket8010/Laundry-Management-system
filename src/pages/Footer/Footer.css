@@ -76,16 +76,31 @@
     
 /* responsive */
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:480px){
     
         .a_right {
-           padding-left: 100px;
-           font-size: 20px;
+          margin-left: 80px;
+           font-size: 14px;
         }
         .a_right h6{
-            font-size: 22px;
+            margin-left: -20px;
+            font-size: 18px;
             font-weight: 600;
            
+        }
+        
+        .contact .left_most{
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .contact .left_most h6{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .contact .right_most{
+            margin-top: 20px;
+            font-size: 14px;
+
         }
 
    

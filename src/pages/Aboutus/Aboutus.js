@@ -8,21 +8,23 @@ function Aboutus() {
         <img src="" alt="" />
       </div>
       <div className="container ">
-        <div style={{lineHeight:"0px"}} className="m-0,p-0">
+        <div className="m-0,p-0">
           <h3
             className="justify-content-center d-flex"
             style={{ fontFamily: "All Round Gothic", color: "#003A25" }}
           >
             LAUNDRY BELONGS IN A LAUNDROMAT
           </h3>
-          <p className="justify-content-center d-flex">
+          <div  className="para1">
+            <p>
             An average human spends between 12000 hours of their adult life in
-            cleaning and managing their clothes. We have all grown up{" "}
+            cleaning and managing their clothes. We have all grown up
           </p>
-          <p className="justify-content-center d-flex">
+          <p>
             on a heavy dose of detergent commercials propagating the idea of
             ‘whiter the better’.
           </p>
+          </div>
         </div>
         <div className="row pt-4 m-auto">
           <div className="col-12 col-lg-5 a_img">

@@ -19,7 +19,7 @@ function Footer() {
               {/* <img
                 src="https://assets.ucleanlaundry.com/assets/images/logo.png"
                 alt=""
-              /> */}
+              /> */}  
               <h5>Overview</h5>
               <p className="pt-2">
               Welcome to Rutuja Laundry, your trusted partner for professional laundry and dry cleaning services. Founded in 2017, we started with a simple mission to provide top-quality, convenient, and affordable laundry solutions for busy individuals, families, and businesses.

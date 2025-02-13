@@ -7,11 +7,21 @@ font-size: 17px;
 margin: auto;   
 }
 
-@media only screen and (max-width:400px){
+/* Responsive */
+@media only screen and (max-width:480px){
+   .container .para1 p{
+      font-size: 14px;
+     
+   }
+   .container h3{
+      font-size: 20px;
+   }
+   .container .a_img {
+      height: 100%;
+      width: 100%;
+   }
    .container .a_img img{
-      border-radius: 20px;
-      padding: 10px;
-      width: 400px;
-      height: 400px;
+      height: 100%;
+      width: 100%;
    }
 }
