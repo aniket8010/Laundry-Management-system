@@ -1,41 +1,48 @@
-import React from 'react'
-import "./registration.css"
+import React, { useState } from "react";
+import "./registration.css";
 
+const Registration = () => {
+    const [isLogin, setIsLogin] = useState(false);
 
-function registration() {
-  return (
-    <div className="container">
-      {/* registration form */}
-      <div className="a_box">
-      <div class="form-box" id="register">
-      <h2>Register/Login</h2>
-      <form>
-          <input type="text" placeholder="Full Name" required/>
-          <input type="email" placeholder="Email" required/>
-          <input type="text" placeholder="contact.no" required/>
-          <input type="text" placeholder="current Address" required/>
-          <input type="password" placeholder="Password" required/>
-          <button type="submit">Register</button>
-          <p>Already have an account?<a href="#" onclick="showLogin()">Login</a> </p>
-      </form>
-      </div>
+    return (
+        <div className="container">
+            {isLogin ? (
+                <div className="a_box">
+                  <div className="form-box">
+                    <h2>Login</h2>
+                    <form>
+                        <input type="email" placeholder="Email" required />
+                        <input type="password" placeholder="Password" required />
+                        <button type="submit">Login</button>
+                        <p>
+                            Don't have an account?{" "}
+                            <a href="#" onClick={() => setIsLogin(false)}>Register</a>
+                        </p>
+                    </form>
+                </div>
+                </div>
+            ) : (
+                <div className="a_box">
+                  <div className="form-box">
+                    <h2>Register</h2>
+                    <form>
+                        <input type="text" placeholder="Full Name" required />
+                        <input type="email" placeholder="Email" required />
+                        <input type="text" placeholder="contact.no" required />
+                        <input type="text" placeholder="current add" required />
+                        <input type="password" placeholder="Password" required />
+                        <button type="submit">Register</button>
+                        <p>
+                            Already have an account?{" "}
+                            <a href="#" onClick={() => setIsLogin(true)}>Login</a>
+                        </p>
+                    </form>
+                </div>
+                </div>
+            )}
+        </div>
+    );
+};
 
+export default Registration;
 
-      {/* login from */}
-      <div class="form-box" id="login" style={{display:"none"}}>
-      <h2>Login</h2>
-            <form>
-                <input type="email" placeholder="Email" required/>
-                <input type="password" placeholder="Password" required/>
-                <button type="submit">Login</button>
-                <p>Don't have an account<a href="#" onclick="showRegister()">Register</a></p>
-            </form>
-      </div>
-      </div>
-    </div>
-    
-  )
-  
-}
-
-export default registration
