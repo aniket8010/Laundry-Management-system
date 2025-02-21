@@ -69,3 +69,21 @@ p{
     font-family: Arial;
    
 }
+.a_button button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    background: linear-gradient(135deg, #007bff, #033D29); /* Gradient mix */
+    color: white; /* Ensure text remains white */
+    cursor: pointer;
+    border-radius: 6px;
+    width: 160px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .a_button button:hover {
+    background: linear-gradient(135deg, #0056b3, #033D29); /* Darker hover effect */
+    color: white !important; /* Keep text color white */
+    transform: scale(1.05);
+  }
+  

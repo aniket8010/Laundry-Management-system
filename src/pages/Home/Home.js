@@ -1,8 +1,23 @@
 import React from "react";
 import "./Home.css";
 import "./responsive.css";
+import { useNavigate } from "react-router-dom";
 
-function home() {
+function Home() {
+  const navigate = useNavigate();
+
+  const handleOrderNow = () => {
+    const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+
+    if (isLoggedIn) {
+      // If logged in, redirect to some other page (like the order page)
+      navigate("/order");
+    } else {
+      // If not logged in, redirect to the registration page
+      navigate("/registration");
+    }
+  };
+
   return (
     <div style={{ backgroundColor: "#F3F3F3" }} className="session ">
       <div className="container">
@@ -30,11 +45,9 @@ function home() {
             <div className="a_order">
               <span>Create Your Order..!</span>
             </div>
-            <div className="a_button">
-              <a href="Registration">
-                <button>ORDER NOW</button>
-              </a>
-            </div>
+              <div className="a_button">
+                <button onClick={handleOrderNow}>ORDER NOW</button>
+              </div>
             <div className="a_place">
               <h6>Place Your Order Now</h6>
             </div>
@@ -45,4 +58,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

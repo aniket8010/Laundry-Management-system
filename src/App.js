@@ -4,20 +4,21 @@ import { Header } from "./Header";
 import Home from "./pages/Home/Home";
 import Aboutus from "./pages/Aboutus/Aboutus";
 import Services from "./pages/Services/Services";
-import Registration from "./pages/Registration/Registration"
-
+import Registration from "./pages/Registration/Registration";
+import Order from "./pages/Order/Order";
 
 function App() {
   return <div>
-    <Header/>
+    <Header />
     <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/aboutus" element={<Aboutus/>}></Route>
-      <Route path="/services" element={<Services/>}></Route>
-      <Route path="/registration" element={<Registration/>}></Route>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/aboutus" element={<Aboutus />}></Route>
+      <Route path="/services" element={<Services />}></Route>
+      <Route path="/registration" element={<Registration />}></Route>
+      <Route path="/order" element={<Order />}></Route>
     </Routes>
-    
-    <Footer/>
+
+    <Footer />
   </div>
 }
 
