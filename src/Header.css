@@ -41,6 +41,9 @@
     color: White;
   
 }
+.navbar ul li{
+    padding-left: 30px;
+}
 /* Profile dropdown container */
 .profile-dropdown {
     display: flex;
@@ -59,12 +62,12 @@
   
   /* Logout button */
   .logout-btn {
-    background-color: #ff4d4d;
+    background-color: #056c48;
     color: white;
     border: none;
-    padding: 6px 12px;
+    padding: 5px 0px;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
     transition: 0.3s;
   }

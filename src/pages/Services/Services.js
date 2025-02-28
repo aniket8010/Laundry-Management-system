@@ -7,7 +7,6 @@ function Services() {
     <div className="a_img">
     { <img src="./images/img1.webp" alt="" /> }
    </div>
-   <h1>All Services</h1>
     </div>
   </div>
   )

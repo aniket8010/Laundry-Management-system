@@ -13,7 +13,7 @@ const Registration = () => {
   const navigate = useNavigate(); // To redirect after login
 
   const handleRegister = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     try {
       const response = await axios.post(
         "http://localhost/LaundryManagementSystem/backend/register.php",
@@ -26,7 +26,7 @@ const Registration = () => {
   };
 
   const handleLogin = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     try {
       const response = await axios.post(
         "http://localhost/LaundryManagementSystem/backend/login.php",
@@ -37,9 +37,9 @@ const Registration = () => {
       );
 
       if (response.data.message === "Login successful") {
-        localStorage.setItem("isLoggedIn", "true"); // ✅ Store login state
-        navigate("/"); // ✅ Redirect to home page
-        window.location.reload(); // ✅ Refresh to update the header
+        localStorage.setItem("isLoggedIn", "true"); //  Store login state
+        navigate("/"); //  Redirect to home page
+        window.location.reload(); //  Refresh to update the header
       } else {
         alert("Invalid credentials!");
       }

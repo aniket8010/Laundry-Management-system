@@ -22,7 +22,7 @@ function Footer() {
               /> */}  
               <h5>Overview</h5>
               <p className="pt-2">
-              Welcome to Rutuja Laundry, your trusted partner for professional laundry and dry cleaning services. Founded in 2017, we started with a simple mission to provide top-quality, convenient, and affordable laundry solutions for busy individuals, families, and businesses.
+              Welcome to Shelke Laundry, your trusted partner for professional laundry and dry cleaning services. Founded in 2017, we started with a simple mission to provide top-quality, convenient, and affordable laundry solutions for busy individuals, families, and businesses.
               </p>
             </div>
           </div>
@@ -52,13 +52,13 @@ function Footer() {
                 <h6 className="fw-3">CONTACT US</h6>
                 <FaLocationDot style={{ color: "#79B64A" }} />{" "}
                 <span>
-                  RFH-09 Green Ville, <br /> Chouvisawadi road charoli, <br />{" "}
-                  pune-412105, India
+                  Sahyadi Nagar, <br /> N5 Cidco, <br />{" "}
+                  Sambhaji Nagar-431001, India
                 </span>
                 <br />
                 <div style={{ paddingTop: "10px" }} className="a_icon ">
                   <FaPhone style={{ color: "#79B64A", fontSize: "13px" }} />{" "}
-                  <span style={{ cursor: "pointer" }}>+918010248192</span>
+                  <span style={{ cursor: "pointer" }}>+91 8010217730</span>
                 </div>
                 <div className="m_icon">
                   <MdMail style={{ color: "#79B64A" }} />{" "}
@@ -72,7 +72,7 @@ function Footer() {
               <div className="right_most">
                 <h6 className="fw-3">FOLLOW US</h6>
                 <div style={{ cursor: "pointer" }} className="img_box">
-                  <a href="https://www.facebook.com/jagdish.shinde.79677?mibextid=ZbWKwL">
+                  <a href="">
                     <div
                       style={{ backgroundColor: "#41639D" }}
                       className="a_img"
@@ -80,7 +80,7 @@ function Footer() {
                       <FaFacebookF />
                     </div>
                   </a>
-                  <a href="https://www.instagram.com/akshay_solanke_003?igsh=MnRtc2FtYm5rejNu">
+                  <a href="">
                     <div
                       style={{ backgroundColor: "#022317" }}
                       className="a_img"
@@ -88,7 +88,7 @@ function Footer() {
                       <FaXTwitter />
                     </div>
                   </a>
-                  <a href="https://www.instagram.com/akshay_solanke_003?igsh=MnRtc2FtYm5rejNu">
+                  <a href="">
                     <div
                       style={{ backgroundColor: "#0678B6" }}
                       className="a_img"
@@ -96,7 +96,7 @@ function Footer() {
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="https://www.instagram.com/akshay_solanke_003?igsh=MnRtc2FtYm5rejNu">
+                  <a href="">
                     <div
                       style={{ backgroundColor: "#D53F59" }}
                       className="a_img"
@@ -104,7 +104,7 @@ function Footer() {
                       <FaInstagram />
                     </div>
                   </a>
-                  <a href="https://www.youtube.com/channel/UC81xLefoQJZD5J6-sbIzGAA">
+                  <a href="">
                     <div
                       style={{ backgroundColor: "#FFFFFF", color: "red" }}
                       className="a_img"

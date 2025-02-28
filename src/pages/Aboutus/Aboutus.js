@@ -35,7 +35,7 @@ function Aboutus() {
           </div>
           <div className="col-12 col-lg-5 para ">
             <p>
-              At Rutuja Drycleaners, we understand the importance of
+              At Shelke Drycleaners, we understand the importance of
               fresh, clean clothes, and we are committed to delivering
               outstanding results every time. Whether it’s everyday wear,
               delicate fabrics, or commercial laundry, our advanced cleaning

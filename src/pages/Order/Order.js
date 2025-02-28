@@ -1,10 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 import "./Order.css";
 
 const Order = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    address: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await axios.post("http://localhost/LAUNDRYMANAGEMENTSYSTEM/backend/order.php", formData, {
+        headers: { "Content-Type": "application/json" },
+      });
+
+      alert(response.data.message); // Show success/error message
+      if (response.data.status === "success") {
+        setFormData({ name: "", phone: "", address: "" }); // Clear form after success
+      }
+    } catch (error) {
+      console.error("Error submitting order:", error);
+      alert("Something went wrong. Please try again.");
+    }
+  };
+
   return (
     <div className="order-container">
-      <div className="overlay"></div> {/* Blur effect overlay */}
+      <div className="overlay"></div>
       <div className="form-container">
         <div className="order-text">
           <h3 className="looking-for">Looking For The</h3>
@@ -19,11 +48,11 @@ const Order = () => {
           <hr />
           <p className="subtext">Feel the Difference, Yourself!</p>
 
-          <form className="order-form">
-            <input type="text" placeholder="Name" required />
-            <input type="tel" placeholder="Phone Number" required />
-            <input type="text" placeholder="Address" required />
-            <button className="order-button">Schedule Free Pick up</button>
+          <form className="order-form" onSubmit={handleSubmit}>
+            <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange} required />
+            <input type="tel" name="phone" placeholder="Phone Number" value={formData.phone} onChange={handleChange} required />
+            <input type="text" name="address" placeholder="Address" value={formData.address} onChange={handleChange} required />
+            <button type="submit" className="order-button">Schedule Free Pick Up</button>
           </form>
         </div>
       </div>
