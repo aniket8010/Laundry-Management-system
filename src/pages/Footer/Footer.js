@@ -19,15 +19,15 @@ function Footer() {
               {/* <img
                 src="https://assets.ucleanlaundry.com/assets/images/logo.png"
                 alt=""
-              /> */}  
+              /> */}
               <h5>Overview</h5>
               <p className="pt-2">
-              Welcome to Shelke Laundry, your trusted partner for professional laundry and dry cleaning services. Founded in 2017, we started with a simple mission to provide top-quality, convenient, and affordable laundry solutions for busy individuals, families, and businesses.
+                Welcome to Shelke Laundry, your trusted partner for professional laundry and dry cleaning services. Founded in 2017, we started with a simple mission to provide top-quality, convenient, and affordable laundry solutions for busy individuals, families, and businesses.
               </p>
             </div>
           </div>
           <div className="col-12 col-lg-3">
-            <div style={{paddingLeft:"70px"}} className="a_right">
+            <div style={{ paddingLeft: "70px" }} className="a_right">
               <h6 style={{ paddingLeft: "25px" }} className="fw-3 pt-3">
                 OUR SERVICES
               </h6>
@@ -72,7 +72,7 @@ function Footer() {
               <div className="right_most">
                 <h6 className="fw-3">FOLLOW US</h6>
                 <div style={{ cursor: "pointer" }} className="img_box">
-                  <a href="">
+                  <a href="https://www.facebook.com/share/1UGhGRNRE1/">
                     <div
                       style={{ backgroundColor: "#41639D" }}
                       className="a_img"
@@ -80,7 +80,7 @@ function Footer() {
                       <FaFacebookF />
                     </div>
                   </a>
-                  <a href="">
+                  <a href="https://x.com/Anikets88934902?t=iHuc_WawIgnAg0pbF5J_4Q&s=09">
                     <div
                       style={{ backgroundColor: "#022317" }}
                       className="a_img"
@@ -88,7 +88,7 @@ function Footer() {
                       <FaXTwitter />
                     </div>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/aniket-shelke-a401a6243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                     <div
                       style={{ backgroundColor: "#0678B6" }}
                       className="a_img"
@@ -96,7 +96,7 @@ function Footer() {
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/aniketshelke_5453/">
                     <div
                       style={{ backgroundColor: "#D53F59" }}
                       className="a_img"
@@ -104,7 +104,7 @@ function Footer() {
                       <FaInstagram />
                     </div>
                   </a>
-                  <a href="">
+                  <a href="https://youtube.com/@aniketshelkepatil?si=ZvJcAghyta-qfIGl">
                     <div
                       style={{ backgroundColor: "#FFFFFF", color: "red" }}
                       className="a_img"
