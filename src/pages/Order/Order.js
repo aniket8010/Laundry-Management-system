@@ -38,7 +38,7 @@ const Order = () => {
         <div className="order-text">
           <h3 className="looking-for">Looking For The</h3>
           <h2 className="best-service">"BEST DRY CLEANING SERVICE?"</h2>
-          <h1 className="welcome-text">WELCOME TO TUMBLEDRY</h1>
+          <h1 className="welcome-text">WELCOME TO SHELKE DRYCLEANERS</h1>
           <hr />
           <div className="middle-text">
             <p className="trusted-text">Trusted By <strong>20 Lac+</strong> Customers</p>
